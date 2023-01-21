@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6495ed;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+button {
+  background-color: #fff;
+  color: #2d98da;
+  cursor: default;
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 19px;
+  border-radius: 45%;
+  border: none;
+}
+
+button:active {
+  transform: scale(0.89);
+}
+
+#start_stop {
+  background-color: #fff;
+  color: #2d98da;
+  font-size: 15px;
+  border: none;
+  border-radius: 70%;
+}
+
+#reset {
+  background-color: #fff;
+  font-size: 15px;
+  color: #2d98da;
+  border: none;
+  border-radius: 70%;
+}
+
+.loop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.style {
+  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: -30px 15px 15px;
+}
+
+.container h2 {
+  margin: 0;
+}
+
+.control span {
+  font-size: 35px;
+  margin: 0 10px;
+  width: 50px;
+}
+
+.clock {
+  border: 5px solid #ffdd59;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 60px;
+  width: 270px;
+  height: 270px;
+}
+
+.clock span {
+  font-size: 50px;
+}
+
+.clock h1 {
+  margin: 0;
+}
